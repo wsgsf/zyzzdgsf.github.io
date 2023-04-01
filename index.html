@@ -14,6 +14,8 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
@@ -112,12 +114,32 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+    <a href="/" rel="section"><i class="home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-resources">
+
+    <a href="/resources/" rel="section"><i class="download fa-fw"></i>resources</a>
 
   </li>
   </ul>
@@ -150,7 +172,7 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/01/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="山风">
       <meta itemprop="description" content="山至高处人为峰，海到尽头天是">
     </span>
@@ -271,6 +293,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="山风"
+      src="/images/avatar.jpg">
   <p class="site-author-name" itemprop="name">山风</p>
   <div class="site-description" itemprop="description">山至高处人为峰，海到尽头天是</div>
 </div>
@@ -306,7 +330,7 @@
 
 <div class="copyright">
   
-  &copy; 
+  &copy; 2023-04 – 
   <span itemprop="copyrightYear">2023</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
@@ -345,6 +369,8 @@
 <script src="/js/next-boot.js"></script>
 
 
+  <script defer src="/lib/three/three.min.js"></script>
+    <script defer src="/lib/three/three-waves.min.js"></script>
 
 
   
